@@ -13,4 +13,8 @@ jenkins:
   ports:
     - "8282:8080"
     - "5000:5000"
+  links:
+    - gitlab
+    - archiva
+  
   
