@@ -17,3 +17,7 @@ $docker-compose up
 ## Requires
 - docker (tested with version 1.9.1)
 - docker-compose (tested with version 1.5.1) 
+
+## Services config
+Still **NO** manual configuraiton for the services :disappointed:. 
+The manual steps are here: [services-config.md](services-config.md)
