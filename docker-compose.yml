@@ -1,0 +1,11 @@
+archiva:
+  image: xetusoss/archiva
+  ports: 
+    - "8181:8080"
+gitlab:
+  image: gitlab/gitlab-ce:latest
+  ports:
+    - "8443:443"
+    - "8080:80"
+    - "2222:22"
+  
